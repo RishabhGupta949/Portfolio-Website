@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "./Ui/Button.jsx"
-import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet.jsx";
+import { Sheet, SheetContent, SheetTrigger } from "./Ui/Sheet.jsx";
 import { useTheme } from "./ThemeProvider.jsx";
 import { Sun, Moon, Menu } from "lucide-react";
 
