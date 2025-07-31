@@ -11,10 +11,8 @@ export function SimpleFooter() {
       </Typography>
       <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
         <li>
-            <Link href="/about">
+          <Link href="/about">
           <Typography
-            as="a"
-            href="#"
             color="blue-gray"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >
@@ -23,10 +21,8 @@ export function SimpleFooter() {
           </Link>
         </li>
         <li>
-             <Link href="/">
+          <Link href="/">
           <Typography
-            as="a"
-            href="#"
             color="blue-gray"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >
@@ -45,10 +41,8 @@ export function SimpleFooter() {
           </Typography>
         </li>
         <li>
-            <Link href="/contact">
+          <Link href="/contact">
           <Typography
-            as="a"
-            href="#"
             color="blue-gray"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >

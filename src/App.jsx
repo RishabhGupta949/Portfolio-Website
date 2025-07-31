@@ -2,7 +2,7 @@ import { Switch, Route } from "wouter";
 import { queryClient } from "./Lib/QueryClient.jsx";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "./Components/Ui/Toaster.jsx";
-import { TooltipProvider } from "./Components/Ui/tooltip.jsx";
+import { TooltipProvider } from "./Components/Ui/Tooltip.jsx";
 import { ThemeProvider } from "./Components/ThemeProvider.jsx";
 import { Navigation } from "./Components/Navbar.jsx";
 import Home from "./Pages/Home.jsx";
