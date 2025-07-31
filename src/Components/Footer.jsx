@@ -31,9 +31,8 @@ export function SimpleFooter() {
           </Link>
         </li>
         <li>
+          <Link href="/notfound"></Link>
           <Typography
-            as="a"
-            href="#"
             color="blue-gray"
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >

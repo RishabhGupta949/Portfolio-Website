@@ -6,7 +6,6 @@ import { Input } from "../Components/Ui/input.jsx";
 import { Textarea } from "../Components/Ui/Textarea.jsx";
 import { Label } from "../Components/Ui/Label.jsx";
 import { useToast } from "../hooks/Use-toast.jsx";
-import { apiRequest } from "../Lib/QueryClient.jsx";
 import { Mail, Send, Linkedin, Github } from "lucide-react";
 
 export default function Contact() {

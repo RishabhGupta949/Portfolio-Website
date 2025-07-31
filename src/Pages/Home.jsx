@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import { Button } from "../Components/Ui/Button.jsx";
 import { Card, CardContent } from "../Components/Ui/Card.jsx";
-import { Badge } from "../components/ui/badge.jsx";
+import { Badge } from "../Components/Ui/Badge.jsx";
 import { Code, Mail, Star, Users, Coffee, ArrowRight, Github, Linkedin , Clock} from "lucide-react";
 
 export default function Home() {

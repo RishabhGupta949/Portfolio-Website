@@ -1,5 +1,5 @@
 import { Card, CardContent } from "../Components/Ui/Card.jsx";
-import { Badge } from "../components/ui/badge.jsx";
+import { Badge } from "../Components/Ui/Badge.jsx";
 import { ExternalLink } from "lucide-react";
 
 export default function Projects() {

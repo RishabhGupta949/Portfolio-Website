@@ -1,6 +1,5 @@
 import { Card, CardContent } from "../Components/Ui/Card.jsx";
 import { User, Code, Briefcase } from "lucide-react";
-import { toast } from "sonner";
 
 export default function About() {
   const skills = [
