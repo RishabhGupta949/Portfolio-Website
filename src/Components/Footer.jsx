@@ -31,14 +31,15 @@ export function SimpleFooter() {
           </Link>
         </li>
         <li>
-          <Link href="/notfound">
           <Typography
+            as="a"
             color="blue-gray"
-            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+            download
+            href="/Resume.pdf"
+            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500 hover:cursor-pointer" 
           >
             Resume
           </Typography>
-          </Link>
         </li>
         <li>
           <Link href="/contact">
