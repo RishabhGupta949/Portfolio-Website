@@ -5,46 +5,32 @@ import { ExternalLink } from "lucide-react";
 export default function Projects() {
   const projects = [
     {
-      title: "Analytics Dashboard",
-      description: "A responsive dashboard built with React and Chart.js featuring real-time data visualization and interactive components.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
-      technologies: ["React", "Chart.js", "Tailwind"],
-      demoUrl: "#",
-    },
-    {
-      title: "E-commerce Platform",
-      description: "A modern e-commerce website with product catalog, shopping cart, and checkout functionality built with React and Redux.",
+      title: "Internship Website",
+      description: "Developed a dynamic internship website as a Front-End Developer Intern, featuring a landing page, client sections, and interactive components using HTML, CSS, JavaScript, PHP, and SQL for a complete front-to-back solution.",
       image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
-      technologies: ["React", "Redux", "JavaScript"],
-      demoUrl: "#",
+      technologies: ["HTML5", "CSS3", "JavaScript"],
+      demoUrl: "https://power2createbuildbyrishabhgupta.netlify.app",
     },
     {
-      title: "Task Management App",
-      description: "A productivity app for managing tasks and projects with drag-and-drop functionality and real-time updates.",
+      title: "Client Relationship Management Web App",
+      description: "Built a Client Relationship Management system using React.js, Tailwind, Material UI tables, and React Hook Form for seamless client data handling.",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
-      technologies: ["React", "DnD Kit", "CSS3"],
-      demoUrl: "#",
+      technologies: ["React", "React-Form", "MaterialUI"],
+      demoUrl: "https://crm-client-relationship-managmement.vercel.app/",
     },
     {
-      title: "Weather App",
+      title: "Weather App For Mobile Only",
       description: "A beautiful weather application with location-based forecasts, interactive maps, and responsive design.",
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
       technologies: ["JavaScript", "API", "CSS3"],
-      demoUrl: "#",
-    },
-    {
-      title: "Restaurant Website",
-      description: "An elegant restaurant website featuring menu showcase, online reservations, and location information.",
-      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
-      technologies: ["HTML5", "CSS3", "JavaScript"],
-      demoUrl: "#",
+      demoUrl: "https://weatherappbyrishabh.netlify.app",
     },
     {
       title: "Portfolio Website",
       description: "A personal portfolio website showcasing projects, skills, and experience with smooth animations and modern design.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
-      technologies: ["React", "Tailwind", "Framer Motion"],
-      demoUrl: "#",
+      technologies: ["React", "MaterialUI", "Shadcn"],
+      demoUrl: "https://rishabh-portfolio-site-eta.vercel.app",
     },
   ];
 
@@ -53,10 +39,13 @@ export default function Projects() {
     "Chart.js": "bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300",
     "Tailwind": "bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300",
     "Redux": "bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300",
+    "MaterialUI": "bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300",
     "JavaScript": "bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-300",
     "DnD Kit": "bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-300",
+    "React-Form": "bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-300",
     "CSS3": "bg-indigo-100 dark:bg-indigo-900/30 text-indigo-800 dark:text-indigo-300",
     "API": "bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300",
+    "Shadcn": "bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300",
     "HTML5": "bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-300",
     "Framer Motion": "bg-pink-100 dark:bg-pink-900/30 text-pink-800 dark:text-pink-300",
   };
@@ -102,6 +91,7 @@ export default function Projects() {
                 </div>
                 <a 
                   href={project.demoUrl}
+                  target="_blank"
                   className="inline-flex items-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium transition-colors duration-300"
                 >
                   <ExternalLink className="mr-2 h-4 w-4" />
